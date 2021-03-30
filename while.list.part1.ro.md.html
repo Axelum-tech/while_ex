@@ -1,0 +1,13 @@
+<script>
+let item = 1
+let days = ["0","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"]
+
+document.write(`<ul>`)
+while(item<=7) {
+  document.write(`
+  <li style="list-style:none">* ${item}. ${days[item]}</li>`)
+  item++
+}
+document.write(`</ul>`)
+
+</script>

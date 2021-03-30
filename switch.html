@@ -1,0 +1,36 @@
+<script>
+ 
+
+    let day = +prompt("Day of the week?")
+    let calendar= prompt("Calendar type?")
+
+    if(calendar=="julian" || calendar=="jul"){
+        switch(day ){ //===identic
+            case 1:document.write("Sunday");break
+            case 2:document.write("Monday");break
+            case 3:document.write("Tuesday");break
+            case 4:document.write("Wednsday");break
+            case 5:document.write("Thursday");break
+            case 6:document.write("Friday");break
+            case 7:document.write("Saturady");break 
+           
+            default:document.write("Are you drunk?");break
+            
+        }
+    }else if(calendar=="gregorian" || calendar=="greg"){
+
+        switch(day ){ //===identic         
+            case 1:document.write("Monday");break
+            case 2:document.write("Tuesday");break
+            case 3:document.write("Wednsday");break
+            case 4:document.write("Thursday");break
+            case 5:document.write("Friday");break
+            case 6:document.write("Saturady");break
+            case 7:document.write("Sunday");break 
+           
+            default:document.write("Are you drunk?");break
+            
+        }
+    }
+
+</script>
